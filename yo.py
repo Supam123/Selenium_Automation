@@ -25,5 +25,3 @@ for i in range(0,2):
         textbox.send_keys('test')
         send = driver.find_element_by_xpath("/html/body/div[1]/div/div[1]/div/div[2]/div/div/div[1]/div[1]/div[2]/div/div/div/div/div/div/div[2]/div/div/div/div[2]/div/form/div/div[3]/span[2]/div")
         send.click()
-
-# next up is scheduling it to run at a particular time
